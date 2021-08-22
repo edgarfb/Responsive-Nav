@@ -84,6 +84,12 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
 }
 nav li{
   margin-bottom: 1em;
@@ -109,6 +115,50 @@ nav a:hover{
 .nav-toggle:checked ~ nav a {
   opacity: 1;
   transition: opacity 250ms ease-in-out 250ms;
+}
+
+/*Main Content*/
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.welcome{
+  padding: 1rem;
+}
+.welcome h2{ 
+  text-align: center;
+  color: cyan;
+}
+.welcome p{ 
+  text-align: center;
+  color: darkcyan;
+}
+
+.welcome-img{
+  padding: 1rem;
+}
+
+.welcome-img img{
+  width: 100%;
+  border-radius: .5rem;
+  margin-bottom: 2rem;
+}
+
+.btn-container{
+  text-align: center;
+}
+
+.btn{
+  padding: 1rem 2rem;
+  background: crimson;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border-radius: .5rem;
 }
 
 /*Media Queries*/
@@ -137,6 +187,7 @@ nav a:hover{
 
   nav ul {
     display: flex;
+    flex-direction: row;
   }
 
   nav li {
