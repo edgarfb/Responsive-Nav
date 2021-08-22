@@ -214,6 +214,93 @@ nav a:hover{
 
 /*Second Content*/
 
+/*Fourth Content*/
+
+.fourth-container{
+  margin-top: 5rem;
+}
+
+.student-container{
+  padding: 1rem;
+}
+
+.student-container h4{
+  text-align: center;
+  font-size: 1rem;
+  color:crimson;
+  margin: 0px;
+}
+.student-container .job{
+  text-align: center;
+  font-size: .9rem;
+  font-weight: 600;
+  color: tomato;
+  margin-top: 10px;
+}
+.student-container p{
+  text-align: center;
+  font-size: .9rem;
+}
+.students-img{
+  padding: 1rem;
+}
+.students-img img{
+  width: 100%;
+}
+
+/*Fourth Content*/
+
+/*Last Content*/
+
+.icons{
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.boxes{
+  text-align: center;
+  background-color: crimson;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.boxes i{
+  color: #fff;
+}
+
+.boxes h6{
+  margin: 5px;
+  color: #fff;
+}
+
+.last-container p{
+  text-align: center;
+  font-weight: 600;
+  color: tomato;
+  margin-bottom: 0;
+}
+.last-container h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: crimson;
+}
+
+.my-icons{
+  display: flex;
+  justify-content: center;
+}
+.my-icons i {
+  color: crimson;
+  margin: 0 0.5rem;
+}
+
+/*Last Content*/
+
+
+
+
 
 /*Media Queries*/
 
