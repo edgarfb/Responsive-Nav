@@ -137,11 +137,11 @@ nav a:hover{
   color: darkcyan;
 }
 
-.welcome-img{
+.img-container{
   padding: 1rem;
 }
 
-.welcome-img img{
+.img-container img{
   width: 100%;
   border-radius: .5rem;
   margin-bottom: 2rem;
@@ -168,14 +168,14 @@ nav a:hover{
 .second-content{
   margin-top: 5rem;
 }
-.second-title h3{
+.title h3{
   font-size: 1.5rem;
   text-align: center;
   color: cyan;
   margin-bottom: 0;
 }
 
-.second-title .line{
+.title hr{
   width: 100px;
   border: none;
   height: 2px;
