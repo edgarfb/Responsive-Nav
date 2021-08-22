@@ -161,6 +161,60 @@ nav a:hover{
   border-radius: .5rem;
 }
 
+/*Main Content*/
+
+/*Second Content*/
+
+.second-content{
+  margin-top: 5rem;
+}
+.second-title h3{
+  font-size: 1.5rem;
+  text-align: center;
+  color: cyan;
+  margin-bottom: 0;
+}
+
+.second-title .line{
+  width: 100px;
+  border: none;
+  height: 2px;
+  background-color: darkcyan;
+}
+
+
+.second-img{
+  padding: 1rem;
+}
+
+.second-img img{
+  width: 100%;
+  border-radius: .5rem;
+  margin-bottom: 2rem;
+}
+
+.box-container{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.box-container .box {
+  background-color: crimson;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+.box-container .box h4{
+  text-align: center;
+  color: yellow;
+}
+.box-container .box p{
+  color: white;
+}
+
+/*Second Content*/
+
+
 /*Media Queries*/
 
 @media screen and (min-width: 800px) {
