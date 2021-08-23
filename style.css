@@ -1,16 +1,26 @@
-:root{
-  --backgorund: crimson;
-}
 
 *, *::before, *::after {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root{
+  --backgorund: crimson;
+  --primary-color: #fff;
+}
+
+.dark-theme{
+  background-color: #000106;
 }
 
 body{
   margin: 0;
   font-family: sans-serif;
   font-weight: 400;
+  background: var(--primary-color);
 }
+
+
 
 
 /*Navigation Style*/
@@ -116,6 +126,12 @@ nav a:hover{
   opacity: 1;
   transition: opacity 250ms ease-in-out 250ms;
 }
+
+header nav #icon{
+  width: 10%;
+  cursor: pointer;
+}
+
 
 /*Main Content*/
 

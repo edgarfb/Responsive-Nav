@@ -15,11 +15,11 @@
         
         <nav>
             <ul>
-                <li><a href="#">Asosiy</a></li>
-                <li><a href="#">Yangiliklar</a></li>
-                <li><a href="#">Rasimlar</a></li>
-                <li><a href="#">Alochilar</a></li>
-                <li><a href="#"><i class="fas fa-moon"></i></a></li>
+                <li><a href="#asosiy">Asosiy</a></li>
+                <li><a href="#sinf-haqida">Sinf Haqida</a></li>
+                <li><a href="#rasimlar">Rasimlar</a></li>
+                <li><a href="#alochilar">Alochilar</a></li>
+                <li><img onclick="toggle()" src="./images/moon.png" alt="" id="icon"></li> 
             </ul>
         </nav>
         <label for="nav-toggle" class="nav-toggle-label">
@@ -27,7 +27,7 @@
         </label>
     </header>
 
-    <section class="main-content">
+    <section class="main-content" id="asosiy">
         <div class="welcome">
             <!--need to add a div to the desktop version-->
             <h2>
@@ -44,7 +44,7 @@
             </div>
         </div>
     </section>
-    <section class="second-content">
+    <section class="second-content" id="sinf-haqida">
         <div class="title">
             <h3>2 "G" Sinf</h3>
             <hr class="line">
@@ -73,7 +73,7 @@
         </div>
 
     </section>
-    <section class="third-container">
+    <section class="third-container" id="rasimlar">
         <div class="title">
             <h3>FotoGalereya</h3>
             <hr class="line">
@@ -91,9 +91,8 @@
         <div class="btn-container">
             <a class="btn" href="./pages/gallery-page.html">RASIMLAR</a>
         </div>
-       
     </section>
-    <section class="fourth-container">
+    <section class="fourth-container" id="alochilar">
         <div class="title">
             <h3>Alochilar</h3>
             <hr class="line">
