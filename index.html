@@ -1,174 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <header>
-        <h1 class="logo">2 "G" SINF</h1>
-        <input type="checkbox" id="nav-toggle" class="nav-toggle">
-        
-        <nav>
-            <ul>
-                <li><a href="#asosiy">Asosiy</a></li>
-                <li><a href="#sinf-haqida">Sinf Haqida</a></li>
-                <li><a href="#rasimlar">Rasimlar</a></li>
-                <li><a href="#alochilar">Alochilar</a></li>
-                <li><img onclick="toggle()" src="./images/moon.png" alt="" id="icon"></li> 
-            </ul>
-        </nav>
-        <label for="nav-toggle" class="nav-toggle-label">
-            <span></span>
-        </label>
+      <h1 class="logo">2 "G" SINF</h1>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+
+      <nav>
+        <ul>
+          <li><a href="#asosiy">Asosiy</a></li>
+          <li><a href="#sinf-haqida">Sinf Haqida</a></li>
+          <li><a href="#rasimlar">Rasimlar</a></li>
+          <li><a href="#alochilar">Alochilar</a></li>
+          <li class="icon-moon-container">
+            <!-- <img onclick="toggle()" src="./images/moon.png" alt="" id="icon" /> -->
+            <i class="fas fa-moon" onclick="toggle()"></i>
+          </li>
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
     </header>
 
     <section class="main-content" id="asosiy">
-        <div class="welcome">
-            <!--need to add a div to the desktop version-->
-            <h2>
-                Marhamat tumani 39-umumtalim o'rta
-                talim maktabining 2 "G" sinf
-            </h2>
-            <p>O'qtuvchi: Nishonova Mamurahon</p>
+      <div class="welcome">
+        <!--need to add a div to the desktop version-->
+        <h2>Marhamat tumani 39-umumtalim o'rta talim maktabining 2 "G" sinf</h2>
+        <p>O'qtuvchi: Nishonova Mamurahon</p>
+      </div>
+
+      <div class="img-container">
+        <img src="./images/photo_2020-11-18_14-01-39.jpg" alt="" />
+        <div class="btn-container">
+          <a class="btn" href="./pages/first-page.html">SINF HAQIDA</a>
         </div>
-        
-        <div class="img-container">
-            <img src="./images/photo_2020-11-18_14-01-39.jpg" alt="">
-            <div class="btn-container">
-                <a class="btn" href="./pages/first-page.html">SINF HAQIDA</a>
-            </div>
-        </div>
+      </div>
     </section>
     <section class="second-content" id="sinf-haqida">
-        <div class="title">
-            <h3>2 "G" Sinf</h3>
-            <hr class="line">
-        </div>
-        <div class="img-container">
-            <img src="./images/2.jpg" alt="">
-        </div>
+      <div class="title">
+        <h3>2 "G" Sinf</h3>
+        <hr class="line" />
+      </div>
+      <div class="img-container">
+        <img src="./images/2.jpg" alt="" />
+      </div>
 
-        <div class="box-container">
-            <div class="box">
-                <h4>Sinf rahbar</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta amet voluptatem consequatur libero ducimus hic quisquam! Ut aspernatur animi veniam.</p>
-            </div>
-            <div class="box">
-                <h4>O'quvchilar soni</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta amet voluptatem consequatur libero ducimus hic quisquam! Ut aspernatur animi veniam.</p>
-            </div>
-            <div class="box">
-                <h4>Qoshimcha</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta amet voluptatem consequatur libero ducimus hic quisquam! Ut aspernatur animi veniam.</p>
-            </div>
-            <div class="box">
-                <h4>Tadbirlar</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta amet voluptatem consequatur libero ducimus hic quisquam! Ut aspernatur animi veniam.</p>
-            </div>
+      <div class="box-container">
+        <div class="box">
+          <h4>Sinf rahbar</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta amet
+            voluptatem consequatur libero ducimus hic quisquam! Ut aspernatur
+            animi veniam.
+          </p>
         </div>
-
+        <div class="box">
+          <h4>O'quvchilar soni</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta amet
+            voluptatem consequatur libero ducimus hic quisquam! Ut aspernatur
+            animi veniam.
+          </p>
+        </div>
+        <div class="box">
+          <h4>Qoshimcha</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta amet
+            voluptatem consequatur libero ducimus hic quisquam! Ut aspernatur
+            animi veniam.
+          </p>
+        </div>
+        <div class="box">
+          <h4>Tadbirlar</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta amet
+            voluptatem consequatur libero ducimus hic quisquam! Ut aspernatur
+            animi veniam.
+          </p>
+        </div>
+      </div>
     </section>
     <section class="third-container" id="rasimlar">
-        <div class="title">
-            <h3>FotoGalereya</h3>
-            <hr class="line">
-        </div>
+      <div class="title">
+        <h3>FotoGalereya</h3>
+        <hr class="line" />
+      </div>
 
-        <div class="img-container">
-            <img src="./images/background.jpg" alt="">
-        </div>
-        <div class="img-container">
-            <img src="./images/1.jpg" alt="">
-        </div>
-        <div class="img-container">
-            <img src="./images/background.jpg" alt="">
-        </div>
-        <div class="btn-container">
-            <a class="btn" href="./pages/gallery-page.html">RASIMLAR</a>
-        </div>
+      <div class="img-container">
+        <img src="./images/background.jpg" alt="" />
+      </div>
+      <div class="img-container">
+        <img src="./images/1.jpg" alt="" />
+      </div>
+      <div class="img-container">
+        <img src="./images/background.jpg" alt="" />
+      </div>
+      <div class="btn-container">
+        <a class="btn" href="./pages/gallery-page.html">RASIMLAR</a>
+      </div>
     </section>
     <section class="fourth-container" id="alochilar">
-        <div class="title">
-            <h3>Alochilar</h3>
-            <hr class="line">
+      <div class="title">
+        <h3>Alochilar</h3>
+        <hr class="line" />
+      </div>
+      <div class="student-container">
+        <div class="students-img">
+          <img src="./images/IMG_1593.JPG" alt="" />
         </div>
-        <div class="student-container">
-            <div class="students-img">
-                <img src="./images/IMG_1593.JPG" alt="">
-            </div>
-            <h4>Abdurahmonov Otabek</h4>
-            <p class="job">Web Darsturchi</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, autem.</p>
+        <h4>Abdurahmonov Otabek</h4>
+        <p class="job">Web Darsturchi</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, autem.
+        </p>
+      </div>
+      <div class="student-container">
+        <div class="students-img">
+          <img src="./images/IMG_1593.JPG" alt="" />
         </div>
-        <div class="student-container">
-            <div class="students-img">
-                <img src="./images/IMG_1593.JPG" alt="">
-            </div>
-            <h4>Abdurahmonov Otabek</h4>
-            <p class="job">Web Darsturchi</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, autem.</p>
+        <h4>Abdurahmonov Otabek</h4>
+        <p class="job">Web Darsturchi</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, autem.
+        </p>
+      </div>
+      <div class="student-container">
+        <div class="students-img">
+          <img src="./images/IMG_1593.JPG" alt="" />
         </div>
-        <div class="student-container">
-            <div class="students-img">
-                <img src="./images/IMG_1593.JPG" alt="">
-            </div>
-            <h4>Abdurahmonov Otabek</h4>
-            <p class="job">Web Darsturchi</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, autem.</p>
+        <h4>Abdurahmonov Otabek</h4>
+        <p class="job">Web Darsturchi</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, autem.
+        </p>
+      </div>
+      <div class="student-container">
+        <div class="students-img">
+          <img src="./images/IMG_1593.JPG" alt="" />
         </div>
-        <div class="student-container">
-            <div class="students-img">
-                <img src="./images/IMG_1593.JPG" alt="">
-            </div>
-            <h4>Abdurahmonov Otabek</h4>
-            <p class="job">Web Darsturchi</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, autem.</p>
+        <h4>Abdurahmonov Otabek</h4>
+        <p class="job">Web Darsturchi</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, autem.
+        </p>
+      </div>
+      <div class="student-container">
+        <div class="students-img">
+          <img src="./images/IMG_1593.JPG" alt="" />
         </div>
-        <div class="student-container">
-            <div class="students-img">
-                <img src="./images/IMG_1593.JPG" alt="">
-            </div>
-            <h4>Abdurahmonov Otabek</h4>
-            <p class="job">Web Darsturchi</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, autem.</p>
-        </div>
+        <h4>Abdurahmonov Otabek</h4>
+        <p class="job">Web Darsturchi</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, autem.
+        </p>
+      </div>
     </section>
     <section class="last-container">
-        <div class="title">
-            <h3>Bog'lanish</h3>
-            <hr class="line">
+      <div class="title">
+        <h3>Bog'lanish</h3>
+        <hr class="line" />
+      </div>
+      <div class="icons">
+        <div class="boxes">
+          <a
+            href="https://www.google.com/maps/search/Andijon+viloyati+Marhamat+tumani+39-sonli+umumiy+o'rta+ta'lim+maktabi/@40.5115901,72.1672921,11z/data=!3m1!4b1"
+            ><i class="fas fa-map-marker-alt"></i
+          ></a>
+          <h6>Manzil</h6>
         </div>
-        <div class="icons">
-            <div class="boxes">
-                <a href="https://www.google.com/maps/search/Andijon+viloyati+Marhamat+tumani+39-sonli+umumiy+o'rta+ta'lim+maktabi/@40.5115901,72.1672921,11z/data=!3m1!4b1"><i class="fas fa-map-marker-alt"></i></a>
-                <h6>Manzil</h6>
-            </div>
-            <div class="boxes">
-                <a href="#"><i class="fab fa-telegram"></i></a>
-                <h6>Telegram</h6>
-            </div>
-            <div class="boxes">
-                <a href="#"><i class="fas fa-phone"></i></a>
-                <h6>916167340</h6>
-            </div>
+        <div class="boxes">
+          <a href="#"><i class="fab fa-telegram"></i></a>
+          <h6>Telegram</h6>
         </div>
-        <p>WEB SAYT <i class="fas fa-arrow-down"></i> </p>
-        <h4>OTABEK ABDURAHMONOV</h4>
-        <div class="my-icons">
-            <a href="https://t.me/abdurakhmonov99"><i class="fab fa-telegram"></i></a>
-            <a href="https://www.youtube.com/channel/UCPPIjmkbaopLMucC2fMs4fg/featured"><i class="fab fa-youtube"></i></a>
+        <div class="boxes">
+          <a href="#"><i class="fas fa-phone"></i></a>
+          <h6>916167340</h6>
         </div>
+      </div>
+      <p>WEB SAYT <i class="fas fa-arrow-down"></i></p>
+      <h4>OTABEK ABDURAHMONOV</h4>
+      <div class="my-icons">
+        <a href="https://t.me/abdurakhmonov99"
+          ><i class="fab fa-telegram"></i
+        ></a>
+        <a
+          href="https://www.youtube.com/channel/UCPPIjmkbaopLMucC2fMs4fg/featured"
+          ><i class="fab fa-youtube"></i
+        ></a>
+      </div>
     </section>
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
 
-
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

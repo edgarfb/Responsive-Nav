@@ -1,20 +1,24 @@
- var dark = false;
+var dark = false;
 console.log(false);
 
 var icon = document.getElementById("icon");
 
-function toggle () {
+const iconMoon = document.querySelector(".fa-moon");
 
-  if(dark) {
+iconMoon.addEventListener("click", (event) =>
+  event.target.classList.toggle("fa-sun")
+);
+
+function toggle() {
+  if (dark) {
     document.body.className = "";
     dark = false;
     console.log(dark);
-  }else{
+  } else {
     document.body.className = "dark-theme";
     dark = true;
     console.log(true);
   }
-
 }
 //   dark==true ? function(){
 //     document.body.className = "";
@@ -27,20 +31,15 @@ function toggle () {
 //   }
 // }
 
-
-
-  // var dark = false;
-  // icon.onclick = function(){
-  //   dark ? function(){
-  //     document.body.className = "";
-  //     dark = false;
-  //     console.log(dark);
-  //   }:function(){
-  //     document.body.className = "dark-theme";
-  //     dark = true;
-  //     console.log(true);
-  //   }
-  // };
-
-
-
+// var dark = false;
+// icon.onclick = function(){
+//   dark ? function(){
+//     document.body.className = "";
+//     dark = false;
+//     console.log(dark);
+//   }:function(){
+//     document.body.className = "dark-theme";
+//     dark = true;
+//     console.log(true);
+//   }
+// };

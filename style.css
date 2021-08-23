@@ -101,10 +101,19 @@ nav ul {
   flex-direction: column;
 
 }
-nav li{
+nav li {
   margin-bottom: 1em;
-  margin-left: 1em;
+  /* margin-left: 1em; */
 }
+
+.icon-moon-container i {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.icon-moon-container i:hover {
+  color: yellow;
+}
+
 
 nav a {
   color: #fff;
@@ -127,10 +136,10 @@ nav a:hover{
   transition: opacity 250ms ease-in-out 250ms;
 }
 
-header nav #icon{
+/* header nav #icon{
   width: 10%;
   cursor: pointer;
-}
+} */
 
 
 /*Main Content*/
