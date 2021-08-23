@@ -266,11 +266,16 @@ nav a:hover{
   text-align: center;
   font-size: .9rem;
 }
-.students-img{
+.students-img {
   padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .students-img img{
-  width: 100%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
 /*Fourth Content*/
